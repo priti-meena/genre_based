@@ -55,7 +55,7 @@ if len(st.session_state["watchlist"].movies_list) > 0:
     with st.sidebar.expander("My Watchlist"):
         st.write(pd.Series(st.session_state["watchlist"].movies_list, name="Title"))
         
-st.title('MOVIE RECOMMENDER SYSTEM')     
+st.title('MOVIE RECOMMENDER SYSTEM 🍿')     
 st.sidebar.title("RECOMMEND ME")
 
     ### INITIALISE A BASIC RECOMMENDER UI RENDERING OBJECT ################
