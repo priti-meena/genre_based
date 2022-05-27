@@ -3,11 +3,9 @@ pandas==1.4.0
 scikit_learn==1.1.0
 scipy==1.8.0
 screeninfo==0.8
-streamlit==1.9.0
 requests
 gunicorn
 st-annotated-text
-streamlit-option-menu
 click<=8.0.4
 streamlit_lottie
 protobuf==3.20.1 
