@@ -72,6 +72,8 @@ with left_column:
          st.title('MOVIE RECOMMENDER SYSTEM') 
 with right_column:
          st_lottie(lottie_start, height=300,width=400, key="start")
+     
+st.sidebar.title("RECOMMEND ME")
 
     ### INITIALISE A BASIC RECOMMENDER UI RENDERING OBJECT ################
 if "basic_recommender_ui" not in st.session_state:
